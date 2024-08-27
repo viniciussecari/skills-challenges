@@ -1,0 +1,84 @@
+:root{
+  --primary-color: #1b998b;
+  --secondary-color: #2d3047;
+  --terciary-color: #fffd82;
+  --quartenary-color: #ff9b71;
+  --quintenary-color: #e84855;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+li {
+  list-style: none;
+}
+
+main { 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 32px;
+
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+
+  transition: all 3s ease-in-out;
+}
+
+.header {
+  position: sticky;
+  background: var(--primary-color);
+  padding: 16px;
+  color: #fff;
+  
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+
+  line-height: 32px;
+  letter-spacing: 1.2px;
+  font-weight: 200;
+}
+
+.challenges__menu {
+  height: 300px;
+
+}
+
+.challenges__title{
+  color: var(--secondary-color);
+}
+
+.challenges__menu--list{
+  height: 18.75rem;
+  width: 18.75rem;
+
+  margin: 16px;
+  padding: 16px;
+
+  border: 1px dashed #c1c1c1;
+  border-radius: 10px;
+
+  text-align: center;
+
+  overflow-y: auto;
+}
+
+.challenges__menu--item{
+  margin: 8px 0;
+}
+
+.challenges__menu--item > a:hover {
+  letter-spacing: 2px;
+}
