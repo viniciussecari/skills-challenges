@@ -1,14 +1,45 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
 <head>
   <meta charset='utf-8'>
   <meta http-equiv='X-UA-Compatible' content='IE=edge'>
   <title>Card de perfil</title>
   <meta name='viewport' content='width=device-width, initial-scale=1'>
-  <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
-  <script src='main.js'></script>
+  <link rel='stylesheet' type='text/css' media='screen' href='../styles/main.css'>
 </head>
+
 <body>
-  <h1>ainda em construção</h1>
+  <header class="header">
+    <a class="header__go-back" href="../../index.html"> Voltar ao menu </a>
+  </header>
+
+  <main>
+    <section class="card__base">
+      <section class="card__profile--header">
+        <div class="card__profile--photo"></div>
+      </section>
+      
+      <section class="card__profile--info">
+        <article>
+          <h1>Vinicius Secari</h1>
+          <small>@viniciussecari</small>
+        </article>
+
+        <article>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+            Suspendisse eu placerat ante. Duis porttitor dolor vitae molestie tempus. 
+          </p>
+        </article>
+      </section>
+
+      <section class="card__profile--actions">
+        <button class="card__profile--button-follow"> Follow </button>
+        <button class="card__profile--button-message"> Message </button>
+      </section>
+    </section>
+  </main>
 </body>
+
 </html>
